@@ -1,0 +1,44 @@
+#conteneur{
+    position: relative;
+}
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 200px
+    ;
+}
+.menu{
+    display: flex;
+    background-image: url("header-bg.jpg");
+    padding: 25px;
+    justify-content:flex-end;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    margin:10px ;
+    min-width: 150px;
+}
+div{
+    border: solid 3px aqua ; 
+    margin-left: 800px;
+    margin-right:800px;
+}
+
+hr{
+    height: 1px;
+    background-color: aqua;
+    margin-right: 800px;
+    margin-left: 800px;
+}
+
+footer{
+    background-image: url(WA/header-bg.jpg) ;
+    position: fixed;
+    bottom: 0%;
+}

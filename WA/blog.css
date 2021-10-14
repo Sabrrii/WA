@@ -1,0 +1,88 @@
+#conteneur{
+    position: relative;
+}
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 200px
+    ;
+}
+.menu{
+    display: flex;
+    background-image: url("header-bg.jpg");
+    padding: 25px;
+    justify-content:flex-end;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li{
+    margin:10px ;
+    min-width: 150px;
+}
+.box{
+    border: solid 3px aqua ;
+    background-color:aqua;
+    color: white; 
+    margin-left: 350px;
+    margin-right:350px;
+}
+
+.boxe{
+    border: solid 3px aqua ;
+    background-color:aqua;
+    color: white; 
+    margin-left: 10px;
+    margin-right:  100px;
+}
+
+article{
+    position: absolute;
+    margin-left: 300px;
+    width: 15%;
+    min-height: 15%;
+    font-size: large;
+    
+}
+
+section{
+    position: absolute;
+    margin-left:  1450px;
+    width: 10%;
+
+}
+
+.bleu{
+    color: aquamarine;
+}
+
+#reduce {
+    height: 500px;
+}
+
+.mini{
+    height:200px
+}
+#petit{
+    display: block;
+    position: absolute;
+    margin-left:1450px;
+    margin-top: 350px;
+}
+
+div{
+   display:block;
+   position: absolute;
+   margin-left: 600px;
+
+}
+
+footer{
+    background-image: url(WA/header-bg.jpg) ;
+    position: fixed;
+    bottom: 0%;
+}
